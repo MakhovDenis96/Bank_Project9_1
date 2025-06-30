@@ -7,9 +7,6 @@ def get_mask_card_number(number_card: str) -> str:
     return mask_card
 
 
-print(get_mask_card_number("7000792289606361"))
-
-
 def get_mask_account(number_account: str) -> str:
     """Функция маскировки номера банковского счета"""
     number_account = number_account.replace(" ", "")
@@ -17,4 +14,4 @@ def get_mask_account(number_account: str) -> str:
     return f"**{mask_account}"
 
 
-print(get_mask_account("4394 8530"))
+
